@@ -1,0 +1,6 @@
+centrifugo:
+  # fullnameOverride: "centrifugo-server"
+  config:
+    engine: "memory"
+    admin: true
+    grpc_api: true
