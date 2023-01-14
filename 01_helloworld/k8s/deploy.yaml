@@ -1,16 +1,16 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: go-rest-server
+  name: example-service
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: go-rest-server
+      app: example-service
   template:
     metadata:
       labels:
-        app: go-rest-server
+        app: example-service
     spec:
       containers:
       - name: go-rest-server
@@ -22,10 +22,10 @@ spec:
 apiVersion: v1
 kind: Service
 metadata:
-  name: go-rest-server
+  name: example-service
 spec:
   selector:
-    app: go-rest-server
+    app: example-service
   ports:
   - protocol: TCP
     port: 80

@@ -1,4 +1,5 @@
-FROM golang:latest
+# Alpine is a lightweight docker image
+FROM golang:alpine
 
 # Create a working directory
 RUN mkdir /app
