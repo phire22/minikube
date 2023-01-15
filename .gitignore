@@ -1,1 +1,6 @@
 01_helloworld/go-rest-server.tar
+
+02_helm_centrifugo/Chart.lock
+
+05_two_services/example-server.tar
+05_two_services/example-client.tar
