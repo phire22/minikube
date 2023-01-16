@@ -1,5 +1,5 @@
 centrifugo:
-  # fullnameOverride: "centrifugo-server"
+  existingSecret: centrifugo
   config:
     engine: "memory"
     admin: true
