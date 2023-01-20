@@ -1,6 +1,6 @@
 ## Start
 ```
-minikube ssh
+minikube start
 ```
 
 ## Install
