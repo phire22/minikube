@@ -1,0 +1,7 @@
+centrifugo:
+  existingSecret: centrifugo
+  config:
+    engine: "redis"
+    redis_address: "redis://redis-master:6379"
+    admin: true
+    allow_subscribe_for_client: true
