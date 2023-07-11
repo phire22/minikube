@@ -1,5 +1,7 @@
 redis:
   auth:
-    enabled: false
+    enabled: true
+    existingSecret: "centrifugo"
+    existingSecretPasswordKey: "redisPassword"
   replica:
     replicaCount: 1
