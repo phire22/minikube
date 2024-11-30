@@ -15,7 +15,7 @@ kubectl apply -f k8s/deploy.yaml
 
 # Call client
 ```
-client_url=$(minikube service example-client --url)
+minikube service example-client
 
 curl $client_url
 ```
